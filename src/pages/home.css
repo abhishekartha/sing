@@ -1,0 +1,38 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:.6rem 4rem;
+}
+
+.header h4{
+    font-size:1rem;
+    cursor:pointer;
+    transition: .2s all ease-in-out;
+}
+.header h4:hover{
+    opacity: .75;
+}
+/* BANNER */
+.banner-component{
+    position: relative;
+    text-align: center;
+    color:#fffeee;
+}
+.banner-title{
+    position: absolute;
+    font-size:5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+  
+}
+.banner-image{
+    width:100vw;
+    filter: brightness(.5);
+}
+/* CAROUSEL */
+.carousel-image{
+    object-fit: contain;
+    width: 100%;
+    height:100%;   
+}
