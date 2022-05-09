@@ -1,9 +1,10 @@
 import React from "react";
 
 export default function BannerComponent(props) {
-  const bannerData = props.data;
+  const bannerData = props;
   return (
     <div className="banner-component">
+      <h1>hi from banner</h1>
       <img
         src={bannerData.IMAGE.src}
         alt="banner image"

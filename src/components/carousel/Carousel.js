@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function CarouselComponent(props) {
-  const carouselData = props.data;
+  const carouselData = props;
   return (
     <div className="carousel-component">
       <h1>{carouselData.TITLE}</h1>

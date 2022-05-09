@@ -16,14 +16,14 @@
 .banner-component{
     position: relative;
     text-align: center;
-    color:#fffeee;
 }
 .banner-title{
     position: absolute;
     font-size:5rem;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -130%);
+    color:#fffeee;
+    transform: translate(-50%, -50%);
   
 }
 .banner-image{
